@@ -1,0 +1,28 @@
+@tailwind base
+
+@tailwind components
+
+.carousel-img-bg-fullscreen
+  @apply block w-full min-h-full bg-no-repeat bg-cover bg-center
+
+@tailwind utilities
+
+.gg-menu
+    --ggs: 1.1
+
+@responsive
+    .navigation
+        clip-path: circle(100px at 120% -15%)
+        transition: all .5s ease-out
+        pointer-events: none
+
+    .navigation.open
+        clip-path: circle(1200px at 120% -15%)
+        pointer-events: all
+
+    .x-navigation
+        clip-path: none
+        transition: none
+        pointer-events: all
+
+
