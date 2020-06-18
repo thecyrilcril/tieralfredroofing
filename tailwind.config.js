@@ -1,12 +1,13 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.vue',
-  ],
+  purge: false,
   theme: {
     extend: {
+        inset: {
+          '-1': '-1rem',
+          '-24': '-6rem',
+        },
         zIndex: {
             '-10': '-10',
         },

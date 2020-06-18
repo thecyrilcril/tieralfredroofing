@@ -1,5 +1,5 @@
 <template>
-    <div class="carousel main-carousel is-hidden -z-10">
+    <div class="carousel main-carousel is-hidden -z-10 w-full fixed top-0">
         <slot></slot>
     </div>
 

@@ -7,7 +7,10 @@ import NotFound from './views/NotFound'
 export default {
     mode: 'history',
 
-    linkActiveClass: 'md:text-gray-900',
+    publicPath: '/',
+
+    linkActiveClass: 'md:text-white md:border-t-2 md:border-white',
+
 
     routes: [
         {

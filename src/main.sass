@@ -7,7 +7,10 @@
 
 @tailwind utilities
 
-.gg-menu
+.gg-menu,
+.gg-pin,
+.gg-phone,
+.gg-smartphone
     --ggs: 1.1
 
 @responsive
@@ -25,4 +28,5 @@
         transition: none
         pointer-events: all
 
-
+    .mobile-nav-bg
+        background-color: transparentize(#f56565, 0.1)
